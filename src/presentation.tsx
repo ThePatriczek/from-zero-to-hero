@@ -13,9 +13,21 @@ const Presentation: React.FC = () => (
     progress={'none'}
   >
     <Slides.Intro />
-    <Slides.AboutMe />
+    <Slides.Topics />
     <Slides.Graphql.Info />
+    <Slides.Graphql.Example.Schema />
+    <Slides.Graphql.Example.FragmentQueryMutation />
+    <Slides.Graphql.ProsCons />
+    <Slides.Graphql.Apollo />
+    <Slides.Graphql.Apollo.Example.Query />
+    <Slides.Graphql.Apollo.Example.Mutation />
+    <Slides.Graphql.CodeGenerator />
+    <Slides.Graphql.CodeGenerator.Example.Schema />
+    <Slides.Graphql.CodeGenerator.Example.FragmentQueryMutation />
+    {/*<Slides.Hooks/>*/}
+    {/*<Slides.Hooks.Example/>*/}
     <Slides.Atlantic />
+    <Slides.Outro/>
   </Deck>
 );
 
