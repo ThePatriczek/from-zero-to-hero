@@ -5,12 +5,16 @@
   "dependencies": {
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
+    "spectacle-code-slide": "^0.5.2",
     "spectacle-scripts": "2.4.0"
   },
   "devDependencies": {
+    "@apollo/react-hooks": "^3.1.2",
     "@types/react": "^16.9.5",
     "@types/react-dom": "^16.9.1",
     "@types/react-hot-loader": "^4.1.0",
+    "apollo-boost": "^0.4.4",
+    "graphql": "^14.5.8",
     "prettier": "^1.18.2",
     "typescript": "^3.6.3"
   },
