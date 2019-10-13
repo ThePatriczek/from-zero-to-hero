@@ -24,10 +24,10 @@ const Presentation: React.FC = () => (
     <Slides.Graphql.CodeGenerator />
     <Slides.Graphql.CodeGenerator.Example.Schema />
     <Slides.Graphql.CodeGenerator.Example.FragmentQueryMutation />
-    {/*<Slides.Hooks/>*/}
-    {/*<Slides.Hooks.Example/>*/}
+    <Slides.Hooks />
+    <Slides.Hooks.Example />
     <Slides.Atlantic />
-    <Slides.Outro/>
+    <Slides.Outro />
   </Deck>
 );
 
