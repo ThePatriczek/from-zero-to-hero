@@ -5,7 +5,7 @@ import CodeSlide from 'spectacle-code-slide';
 
 const code = `export type Query = {
    __typename?: 'Query',
-  user: User,
+  user: Maybe<User>,
   users: Array<User>,
 };
 

@@ -9,7 +9,7 @@ const code = `schema {
 }
 
 type Query {
-  user: User!,
+  user(id: ID!): User
   users: [User!]!
 }
 
