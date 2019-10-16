@@ -5,6 +5,7 @@
   "homepage": "https://thepatriczek.github.io/from-zero-to-hero/",
   "dependencies": {
     "react": "^16.10.2",
+    "react-atlantic": "^0.2.9",
     "react-dom": "^16.10.2",
     "spectacle-code-slide": "^0.5.2",
     "spectacle-scripts": "2.4.0"
