@@ -5,7 +5,7 @@ import CodeSlide from 'spectacle-code-slide';
 
 const code = `export const Component = () => {
   const { loading, error, data } = 
-    useQuery(
+    useQuery<ExampleQuery>(
       gql\`
         query Example { 
           users { 

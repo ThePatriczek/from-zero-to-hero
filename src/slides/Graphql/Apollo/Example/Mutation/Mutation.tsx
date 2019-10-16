@@ -5,7 +5,9 @@ import CodeSlide from 'spectacle-code-slide';
 
 const code = `export const Component = () => {
   const [createUser, {data, error, loading}] = 
-    useMutation(
+    useMutation<
+      ExampleMutation,
+      ExampleMutationVariables>(
       gql\`
         mutation Example(
         $variable: userInput!) { 
@@ -32,6 +34,6 @@ export const Mutation: React.FC<SlideProps> = (props: SlideProps) => (
     transition={[]}
     lang={`jsx`}
     code={code}
-    ranges={[{ loc: [1, 11], title: `useMutation hook` }, { loc: [13, 16] }]}
+    ranges={[{ loc: [1, 13], title: `useMutation hook` }, { loc: [15, 18] }]}
   />
 );
