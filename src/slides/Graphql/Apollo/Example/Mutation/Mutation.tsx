@@ -7,10 +7,10 @@ const code = `export const Component = () => {
   const [createUser, {data, error, loading}] = 
     useMutation(
       gql\`
-        mutation CreateUser(
-        $userInput: userInput!) { 
-          createUser(userInput: $userInput) { 
-             ...user
+        mutation Example(
+        $variable: userInput!) { 
+          createUser(userInput: $variable) { 
+             ...ExampleFragment
           } 
         }\`
     );

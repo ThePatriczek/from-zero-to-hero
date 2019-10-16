@@ -7,9 +7,9 @@ const code = `export const Component = () => {
   const { loading, error, data } = 
     useQuery(
       gql\`
-        query Users { 
+        query Example { 
           users { 
-             ...user
+             ...ExampleFragment
           } 
         }\`
     );

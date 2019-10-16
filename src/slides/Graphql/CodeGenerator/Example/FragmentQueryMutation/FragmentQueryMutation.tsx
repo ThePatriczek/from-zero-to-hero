@@ -3,20 +3,20 @@ import { SlideProps } from 'spectacle';
 // @ts-ignore
 import CodeSlide from 'spectacle-code-slide';
 
-const code = `export type UserFragment = { __typename?: 'User', id: string, name: string, email: string, class: Class };
+const code = `export type ExampleFragment = { __typename?: 'User', id: number, name: string, email: string, class: Class };
 
-export type UsersQuery = { __typename?: 'Query', users: Array<(
+export type ExampleQuery = { __typename?: 'Query', users: Array<(
     { __typename?: 'User' }
-    & UserFragment
+    & ExampleFragment
   )> };
 
-export type CreateUserMutationVariables = {
+export type ExampleMutationVariables = {
   userInput: UserInput
 };
 
-export type CreateUserMutation = { __typename?: 'Mutation', createUser: (
+export type ExampleMutation = { __typename?: 'Mutation', createUser: (
     { __typename?: 'User' }
-    & UserFragment
+    & ExampleFragment
   ) };`;
 
 export const FragmentQueryMutation: React.FC<SlideProps> = (

@@ -3,22 +3,22 @@ import { SlideProps } from 'spectacle';
 // @ts-ignore
 import CodeSlide from 'spectacle-code-slide';
 
-const code = `fragment user on User {
+const code = `fragment ExampleFragment on User {
   id
   name
   email
   class
 }
 
-query Users {
+query Example {
   users {
-    ...user
+    ...ExampleFragment
   }  
 }
 
-mutation CreateUser($userInput: UserInput!) {
-  createUser(userInput: $userInput) {
-    ...user
+mutation Example($variable: UserInput!) {
+  createUser(userInput: $variable) {
+    ...ExampleFragment
   }
 }`;
 
