@@ -18,12 +18,12 @@ const Presentation: React.FC = () => (
     <Slides.Graphql.Example.Schema />
     <Slides.Graphql.Example.FragmentQueryMutation />
     <Slides.Graphql.ProsCons />
-    <Slides.Graphql.Apollo />
-    <Slides.Graphql.Apollo.Example.Query />
-    <Slides.Graphql.Apollo.Example.Mutation />
     <Slides.Graphql.CodeGenerator />
     <Slides.Graphql.CodeGenerator.Example.Schema />
     <Slides.Graphql.CodeGenerator.Example.FragmentQueryMutation />
+    <Slides.Graphql.Apollo />
+    <Slides.Graphql.Apollo.Example.Query />
+    <Slides.Graphql.Apollo.Example.Mutation />
     <Slides.Hooks />
     <Slides.Hooks.Example />
     <Slides.Atlantic />
