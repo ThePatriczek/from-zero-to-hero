@@ -29,7 +29,7 @@ export type UserInput = {
   name: Scalars['String'],
   email: Scalars['String'],
   password: Scalars['String'],
-  class: Class,
+  character: Character,
 };
 
 export type User = {
@@ -37,10 +37,10 @@ export type User = {
   id: Scalars['ID'],
   name: Scalars['String'],
   email: Scalars['String'],
-  class: Class,
+  character: Character,
 };
 
-export enum Class {
+export enum Character {
   Mage = 'MAGE',
   Warrior = 'WARRIOR',
   Rogue = 'ROGUE',
@@ -66,7 +66,7 @@ export const Schema: React.FC<SlideProps> = (props: SlideProps) => (
     lang={`jsx`}
     code={code}
     ranges={[
-      { loc: [0, 0], title: `Schema in TypeScript` },
+      { loc: [0, 0], title: `schema.ts` },
       { loc: [0, 5] },
       { loc: [6, 12] },
       { loc: [13, 21] },

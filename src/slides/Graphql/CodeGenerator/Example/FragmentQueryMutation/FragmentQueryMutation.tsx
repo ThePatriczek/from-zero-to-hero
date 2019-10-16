@@ -3,7 +3,7 @@ import { SlideProps } from 'spectacle';
 // @ts-ignore
 import CodeSlide from 'spectacle-code-slide';
 
-const code = `export type ExampleFragment = { __typename?: 'User', id: number, name: string, email: string, class: Class };
+const code = `export type ExampleFragment = { __typename?: 'User', id: number, name: string, email: string, character: Character };
 
 export type ExampleQuery = { __typename?: 'Query', users: Array<(
     { __typename?: 'User' }
@@ -30,9 +30,9 @@ export const FragmentQueryMutation: React.FC<SlideProps> = (
     lang={`jsx`}
     code={code}
     ranges={[
-      { loc: [0, 1], title: `Fragment in TypeScript` },
-      { loc: [2, 6], title: `Query in TypeScript` },
-      { loc: [7, 15], title: `Mutation in TypeScript` }
+      { loc: [0, 1], title: `fragment.ts` },
+      { loc: [2, 6], title: `query.ts` },
+      { loc: [7, 15], title: `mutation.ts` }
     ]}
   />
 );

@@ -7,7 +7,7 @@ const code = `fragment ExampleFragment on User {
   id
   name
   email
-  class
+  character
 }
 
 query Example {
@@ -33,9 +33,9 @@ export const FragmentQueryMutation: React.FC<SlideProps> = (
     lang={`jsx`}
     code={code}
     ranges={[
-      { loc: [0, 6], title: `GraphQL Fragment` },
-      { loc: [7, 12], title: `GraphQL Query` },
-      { loc: [13, 18], title: `GraphQL Mutation` }
+      { loc: [0, 6], title: `fragment.graphql` },
+      { loc: [7, 12], title: `query.graphql` },
+      { loc: [13, 18], title: `mutation.graphql` }
     ]}
   />
 );

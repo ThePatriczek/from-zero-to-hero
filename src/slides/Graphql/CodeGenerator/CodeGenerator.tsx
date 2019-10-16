@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Heading, Slide, SlideProps } from 'spectacle';
+import { Heading, Slide, SlideProps, Cite, List, ListItem } from 'spectacle';
 import { Schema, FragmentQueryMutation } from './Example';
 
 export const CodeGenerator: React.FC<SlideProps> & {
@@ -12,6 +12,13 @@ export const CodeGenerator: React.FC<SlideProps> & {
     <Heading size={1} textColor="tertiary" fit>
       {`GraphQL Code Generator`}
     </Heading>
+    <List>
+      <ListItem>
+        <Cite textColor={`primary`}>
+          {`Generate code from your GraphQL schema with a single function call`}
+        </Cite>
+      </ListItem>
+    </List>
   </Slide>
 );
 

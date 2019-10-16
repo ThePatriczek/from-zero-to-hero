@@ -26,17 +26,17 @@ input UserInput {
   name: String!
   email: String!
   password: String!
-  class: Class!
+  character: Character!
 }
 
 type User {
   id: ID!
   name: String!
   email: String!
-  class: Class!
+  character: Character!
 }
 
-enum Class {
+enum Character {
   MAGE
   WARRIOR
   ROGUE
@@ -56,7 +56,7 @@ export const Schema: React.FC<SlideProps> = (props: SlideProps) => (
     lang={`jsx`}
     code={code}
     ranges={[
-      { loc: [0, 0], title: `GraphQL Schema` },
+      { loc: [0, 0], title: `schema.graphql` },
       { loc: [0, 4] },
       { loc: [5, 9] },
       { loc: [10, 18] },
