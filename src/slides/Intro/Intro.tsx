@@ -3,11 +3,12 @@ import {
   Heading,
   Slide,
   SlideProps,
-  Image,
   List,
   ListItem,
-  Text
+  Text,
+  Cite
 } from 'spectacle';
+import { quinary, tertiary } from '../../theme';
 
 const TextStyle = { display: `inline`, marginLeft: 20, marginBottom: 30 };
 const ImageStyle = {
@@ -21,20 +22,19 @@ export const Intro: React.FC<SlideProps> = (props: SlideProps) => (
   <Slide bgColor="secondary" {...props}>
     <Heading caps textColor="primary" textAlign={`right`}>
       {`FROM: `}
-      <span style={{ textDecoration: 'line-through' }}>{`ZERO`}</span>
+      <span
+        style={{ textDecoration: 'line-through', color: quinary }}
+      >{`ZERO`}</span>
       <br />
       {`TO: `}
-      <span style={{ textDecoration: 'underline' }}>{`HERO`}</span>
+      <span
+        style={{ textDecoration: 'underline', color: tertiary }}
+      >{`HERO`}</span>
     </Heading>
 
-    <Heading
-      size={6}
-      textColor="tertiary"
-      textAlign={`right`}
-      margin={`50px 0 0 0 `}
-    >
+    <Cite textColor="primary" textAlign={`right`} margin={`50px 0 0 0 `}>
       {`Patrik Szewczyk`}
-    </Heading>
+    </Cite>
 
     <List>
       <ListItem>
@@ -58,8 +58,18 @@ export const Intro: React.FC<SlideProps> = (props: SlideProps) => (
             </g>
           </g>
         </svg>
-        <Text textColor={`primary`} style={TextStyle}>{`Back squat: `}</Text>
-        <Text textColor={`quinary`} style={TextStyle} bold>{`160kg`}</Text>
+        <Cite textColor={`primary`} style={TextStyle}>{`Back squat: `}</Cite>
+        <Text
+          textColor={`quinary`}
+          style={{ ...TextStyle, textDecoration: 'line-through' }}
+          bold
+        >{`80kg`}</Text>
+        <Text textColor={`primary`} style={TextStyle}>{`/`}</Text>
+        <Text
+          textColor={`tertiary`}
+          style={{ ...TextStyle, textDecoration: 'underline' }}
+          bold
+        >{`160kg`}</Text>
       </ListItem>
       <ListItem>
         <svg
@@ -77,8 +87,18 @@ export const Intro: React.FC<SlideProps> = (props: SlideProps) => (
           <path d="M88.712,32.073h-3.676c-1.237,0-2.244,1.005-2.244,2.245v11.528H70.079l-0.194-21.132 c0-4.082-3.314-7.393-7.396-7.393H36.977c-4.083,0-7.392,3.311-7.392,7.393l0.118,21.132H17.056V34.318 c0-1.24-1.005-2.245-2.244-2.245h-3.673c-1.24,0-2.245,1.005-2.245,2.245v27.689c0,1.238,1.005,2.243,2.245,2.243h3.673 c1.239,0,2.244-1.005,2.244-2.243V50.479h12.858c0.475,1.489,1.855,2.575,3.502,2.575c1.652,0,3.032-1.086,3.507-2.575h2.056 c-0.585,12.251-1.721,35.656-1.721,35.656c-0.2,2.774,1.899,5.186,4.675,5.381c2.779,0.189,5.184-1.896,5.376-4.679 l1.714-33.082c0.306,0.02,1.635,0.029,1.991-0.014l2.27,33.096c0.187,2.783,2.601,4.868,5.383,4.679 c2.77-0.195,4.873-2.606,4.677-5.381c0,0-1.546-23.405-2.347-35.656h1.916c0.475,1.489,1.853,2.575,3.503,2.575 c1.646,0,3.028-1.086,3.506-2.575h12.87v11.528c0,1.238,1.007,2.243,2.244,2.243h3.676c1.24,0,2.242-1.005,2.242-2.243V34.318 C90.954,33.078,89.952,32.073,88.712,32.073z M37.128,45.846V30.098c0-0.604,0.491-1.095,1.094-1.095 c0.604,0,1.097,0.491,1.097,1.095v13.095c0,0.065-0.045,1.043-0.121,2.654H37.128z M60.53,43.192V30.098 c0-0.604,0.494-1.095,1.097-1.095c0.604,0,1.094,0.491,1.094,1.095v15.749h-2.023C60.592,44.226,60.53,43.246,60.53,43.192z" />
         </svg>
 
-        <Text textColor={`primary`} style={TextStyle}>{`Deadlift: `}</Text>
-        <Text textColor={`quinary`} style={TextStyle} bold>{`170kg`}</Text>
+        <Cite textColor={`primary`} style={TextStyle}>{`Deadlift: `}</Cite>
+        <Text
+          textColor={`quinary`}
+          style={{ ...TextStyle, textDecoration: 'line-through' }}
+          bold
+        >{`100kg`}</Text>
+        <Text textColor={`primary`} style={TextStyle}>{`/`}</Text>
+        <Text
+          textColor={`tertiary`}
+          style={{ ...TextStyle, textDecoration: 'underline' }}
+          bold
+        >{`170kg`}</Text>
       </ListItem>
       <ListItem>
         <svg
@@ -107,8 +127,18 @@ export const Intro: React.FC<SlideProps> = (props: SlideProps) => (
             </g>
           </g>
         </svg>
-        <Text textColor={`primary`} style={TextStyle}>{`Bench-press: `}</Text>
-        <Text textColor={`quinary`} style={TextStyle} bold>{`130kg`}</Text>
+        <Cite textColor={`primary`} style={TextStyle}>{`Bench press: `}</Cite>
+        <Text
+          textColor={`quinary`}
+          style={{ ...TextStyle, textDecoration: 'line-through' }}
+          bold
+        >{`60kg`}</Text>
+        <Text textColor={`primary`} style={TextStyle}>{`/`}</Text>
+        <Text
+          textColor={`tertiary`}
+          style={{ ...TextStyle, textDecoration: 'underline' }}
+          bold
+        >{`130kg`}</Text>
       </ListItem>
     </List>
   </Slide>
