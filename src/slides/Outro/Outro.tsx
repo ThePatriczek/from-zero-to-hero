@@ -5,7 +5,7 @@ import { Link } from 'react-atlantic/lib/components/Typography/Link';
 export const Outro: React.FC<SlideProps> = (props: SlideProps) => (
   <Slide bgColor="secondary" {...props}>
     <Heading textColor="primary" textAlign={`right`}>
-      {`Thank you.`}
+      {`Any questions?`}
     </Heading>
     <List>
       <ListItem textAlign={`right`}>
@@ -15,7 +15,7 @@ export const Outro: React.FC<SlideProps> = (props: SlideProps) => (
         >{`https://thepatriczek.github.io/from-zero-to-hero/`}</Link>
       </ListItem>
       <ListItem>
-        <Cite textColor={`primary`}>{`Any questions?`}</Cite>
+        <Cite textColor={`primary`}>{`Thank you.`}</Cite>
       </ListItem>
     </List>
   </Slide>

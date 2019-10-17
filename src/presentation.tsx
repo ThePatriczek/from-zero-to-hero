@@ -29,6 +29,7 @@ const Presentation: React.FC = () => (
     <Slides.Hooks.Example.React />
     <Slides.Hooks.Example.Other />
     <Slides.Atlantic />
+    <Slides.Summary />
     <Slides.Outro />
   </Deck>
 );
