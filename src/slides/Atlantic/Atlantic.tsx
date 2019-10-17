@@ -41,7 +41,7 @@ export const Atlantic: React.FC<SlideProps> = (props: SlideProps) => (
       </Paragraph>
       <Paragraph>
         <Link
-          href={`https://thepatriczek.github.io/React-Atlantic/`}
+          href={`https://thepatriczek.github.io/React-Atlantic/?path=/story/button--playground`}
           target={`_blank`}
         >{`Storybook`}</Link>
       </Paragraph>
