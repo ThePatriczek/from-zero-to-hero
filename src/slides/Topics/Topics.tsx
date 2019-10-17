@@ -9,10 +9,10 @@ export const Topics: React.FC<SlideProps> = (props: SlideProps) => (
         <Cite textColor={`primary`}>{`GraphQL`}</Cite>
       </ListItem>
       <ListItem>
-        <Cite textColor={`primary`}>{`React Apollo`}</Cite>
+        <Cite textColor={`primary`}>{`GraphQL Code Generator`}</Cite>
       </ListItem>
       <ListItem>
-        <Cite textColor={`primary`}>{`GraphQL Code Generator`}</Cite>
+        <Cite textColor={`primary`}>{`React Apollo`}</Cite>
       </ListItem>
       <ListItem>
         <Cite textColor={`primary`}>{`React Hooks`}</Cite>
