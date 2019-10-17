@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Heading, Slide, SlideProps, List, ListItem } from 'spectacle';
+import { Heading, Slide, SlideProps, List, ListItem, Cite } from 'spectacle';
 import { Link } from 'react-atlantic/lib/components/Typography/Link';
 
 export const Outro: React.FC<SlideProps> = (props: SlideProps) => (
@@ -13,6 +13,9 @@ export const Outro: React.FC<SlideProps> = (props: SlideProps) => (
           href={`https://thepatriczek.github.io/from-zero-to-hero/`}
           target={`_blank`}
         >{`https://thepatriczek.github.io/from-zero-to-hero/`}</Link>
+      </ListItem>
+      <ListItem>
+        <Cite textColor={`primary`}>{`Any questions?`}</Cite>
       </ListItem>
     </List>
   </Slide>
