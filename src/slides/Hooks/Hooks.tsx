@@ -8,11 +8,17 @@ import {
   Text,
   Cite
 } from 'spectacle';
-import { Example } from './Example';
+import { Apollo } from './Example/Apollo';
+import { ReactSlide } from './Example/React';
+import { Other } from './Example/Other';
 
-export const Hooks: React.FC<SlideProps> & { Example: React.FC<SlideProps> } = (
-  props: SlideProps
-) => (
+export const Hooks: React.FC<SlideProps> & {
+  Example: {
+    Apollo: React.FC<SlideProps>;
+    React: React.FC<SlideProps>;
+    Other: React.FC<SlideProps>;
+  };
+} = (props: SlideProps) => (
   <Slide bgColor="secondary" {...props}>
     <Heading textColor="quinary" fit>
       {`React Hooks`}
@@ -34,4 +40,8 @@ export const Hooks: React.FC<SlideProps> & { Example: React.FC<SlideProps> } = (
   </Slide>
 );
 
-Hooks.Example = Example;
+Hooks.Example = {
+  Apollo,
+  React: ReactSlide,
+  Other
+};

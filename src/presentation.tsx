@@ -25,7 +25,9 @@ const Presentation: React.FC = () => (
     <Slides.Graphql.Apollo.Example.Query />
     <Slides.Graphql.Apollo.Example.Mutation />
     <Slides.Hooks />
-    <Slides.Hooks.Example />
+    <Slides.Hooks.Example.Apollo />
+    <Slides.Hooks.Example.React />
+    <Slides.Hooks.Example.Other />
     <Slides.Atlantic />
     <Slides.Outro />
   </Deck>
