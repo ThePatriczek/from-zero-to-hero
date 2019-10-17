@@ -1,6 +1,6 @@
 {
-  "main.js": "/from-zero-to-hero/static/js/main.c3c7ffb1.chunk.js",
-  "main.js.map": "/from-zero-to-hero/static/js/main.c3c7ffb1.chunk.js.map",
+  "main.js": "/from-zero-to-hero/static/js/main.819543bb.chunk.js",
+  "main.js.map": "/from-zero-to-hero/static/js/main.819543bb.chunk.js.map",
   "static/css/1.59d000a6.chunk.css": "/from-zero-to-hero/static/css/1.59d000a6.chunk.css",
   "static/js/1.19a6ddbe.chunk.js": "/from-zero-to-hero/static/js/1.19a6ddbe.chunk.js",
   "static/js/1.19a6ddbe.chunk.js.map": "/from-zero-to-hero/static/js/1.19a6ddbe.chunk.js.map",
@@ -8,6 +8,6 @@
   "runtime~main.js.map": "/from-zero-to-hero/static/js/runtime~main.03277ec8.js.map",
   "static/css/1.59d000a6.chunk.css.map": "/from-zero-to-hero/static/css/1.59d000a6.chunk.css.map",
   "index.html": "/from-zero-to-hero/index.html",
-  "precache-manifest.4460d788cf9baf54ecf24107d1c92e4f.js": "/from-zero-to-hero/precache-manifest.4460d788cf9baf54ecf24107d1c92e4f.js",
+  "precache-manifest.49fd422fd27ce0531c78772625c6c04d.js": "/from-zero-to-hero/precache-manifest.49fd422fd27ce0531c78772625c6c04d.js",
   "service-worker.js": "/from-zero-to-hero/service-worker.js"
 }

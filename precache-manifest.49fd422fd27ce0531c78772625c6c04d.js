@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "c3c7ffb11d550a80b5c1",
-    "url": "/from-zero-to-hero/static/js/main.c3c7ffb1.chunk.js"
+    "revision": "819543bbc445fd931127",
+    "url": "/from-zero-to-hero/static/js/main.819543bb.chunk.js"
   },
   {
     "revision": "19a6ddbe5703af2b6b77",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/from-zero-to-hero/static/js/runtime~main.03277ec8.js"
   },
   {
-    "revision": "bfd8db81e4c57cccd5378130dea04341",
+    "revision": "e9c5be05e3cac9b81a0b25384861682d",
     "url": "/from-zero-to-hero/index.html"
   }
 ];
